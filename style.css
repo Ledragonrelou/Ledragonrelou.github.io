@@ -1,0 +1,48 @@
+/*ceci est un commentaire */
+/*pour faire du rgb color; (0,0,0)
+Le premier zero est pour rouge ensuite vert et bleu c'est le code rgb ,
+il y a aussi le code rgba le a est juste pour l'opacité et le chifre du a doit-être entre 0 et 1)*/
+/* il y a aussi du rgb avec des lettres et des chiffres et le nom du code est 
+rgb héxadécimal, juste pas besoin de le créer on peut le faire sur des sites*/
+/*ses commentaires servent à résumer le codage rgb*/
+/*j'arrive pas à résumer Les em (cours 24 udemy section 2)
+/* Je vais résumer les polices:
+il y a 3 types de polices installé de base :serif,sans-serif et cursive.
+On peut Aussi mettre d'autres polices mais si seulement l'utilisateur du site a les polices installé et on peut aussi faire par élimination exemple:
+font-family: Helvetica, Arial , cursive; si l'utilisateur du site à la police helvetica installé il pourra voir la police en helvetica
+si il n'a pas alors se sera du arial et si il n'a pas sa se sera le truc de base*/
+/* Maintenant je peux utiliser le css sans tous affecter en utilisant les tags div pour que ce marche il faut que je fasse:
+Mettre le nombre de div que je mis pour exemple: mes paragraphes et ensuite le code sans crochet exemple p et ensuite mettre ce crochet{}
+et mettre se que je veux à l'intérieur.*/
+ div div div p
+{
+font-size:1000px;
+}
+/* * ce truc fait apliquer a tous le monde sauf les trucs inbriqué*/
+*
+{
+font-size: 40px;
+}
+/* on peut utiliser le code id pour le css et le id est représenter # ex:*/
+#Lecss
+{
+color: darkorange;
+}
+
+/* il y a des pseudo selecteur (cours 26 section 2) il y en 1 qui peut etre utile le voici*/
+
+a:link
+{
+  color: green;  
+}
+
+a:hover
+{
+ color: darkgrey;  font-size: 25px;
+}
+
+a:visited
+{
+   font-size: 30px; color: black;
+}
+
